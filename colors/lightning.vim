@@ -18,16 +18,16 @@ if &t_Co >= 256 || has('gui_running')
 
   hi Comment          ctermbg=NONE ctermfg=244  guibg=NONE    guifg=#808080 cterm=NONE           gui=NONE
   hi Constant         ctermbg=NONE ctermfg=208  guibg=NONE    guifg=#ff8700 cterm=NONE           gui=NONE
-  hi Error            ctermbg=NONE ctermfg=160  guibg=NONE    guifg=#d70000 cterm=reverse        gui=reverse
+  hi Error            ctermbg=160  ctermfg=255  guibg=#d70000 guifg=#ffffff cterm=bold           gui=bold
   hi Identifier       ctermbg=NONE ctermfg=20   guibg=NONE    guifg=#0000d7 cterm=NONE           gui=NONE
   hi Ignore           ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=NONE           gui=NONE
-  hi PreProc          ctermbg=NONE ctermfg=36   guibg=NONE    guifg=#00af87 cterm=NONE           gui=NONE
+  hi PreProc          ctermbg=NONE ctermfg=30   guibg=NONE    guifg=#008787 cterm=NONE           gui=NONE
   hi Special          ctermbg=NONE ctermfg=35   guibg=NONE    guifg=#34b31b cterm=NONE           gui=NONE
   hi Statement        ctermbg=NONE ctermfg=69   guibg=NONE    guifg=#5f87ff cterm=NONE           gui=NONE
-  hi String           ctermbg=NONE ctermfg=124  guibg=NONE    guifg=#af0000 cterm=NONE           gui=NONE
-  hi Todo             ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=reverse        gui=reverse
+  hi String           ctermbg=NONE ctermfg=24   guibg=NONE    guifg=#005f87 cterm=NONE           gui=NONE
+  hi Todo             ctermbg=228  ctermfg=234  guibg=#ffff87 guifg=#1c1c1c cterm=bold           gui=bold
   hi Type             ctermbg=NONE ctermfg=90   guibg=NONE    guifg=#870087 cterm=NONE           gui=NONE
-  hi Underlined       ctermbg=NONE ctermfg=36   guibg=NONE    guifg=#00af87 cterm=underline      gui=underline
+  hi Underlined       ctermbg=NONE ctermfg=39   guibg=NONE    guifg=#00afff cterm=underline      gui=underline
 
   hi LineNr           ctermbg=251  ctermfg=234  guibg=#c6c6c6 guifg=#1c1c1c cterm=NONE           gui=NONE
   hi NonText          ctermbg=NONE ctermfg=244  guibg=NONE    guifg=#808080 cterm=NONE           gui=NONE
@@ -67,7 +67,7 @@ if &t_Co >= 256 || has('gui_running')
   hi VertSplit        ctermbg=238  ctermfg=238  guibg=#444444 guifg=#444444 cterm=NONE           gui=NONE
   hi WildMenu         ctermbg=111  ctermfg=235  guibg=#87afff guifg=#262626 cterm=NONE           gui=NONE
 
-  hi Function         ctermbg=NONE ctermfg=166  guibg=NONE    guifg=#d75f00 cterm=NONE           gui=NONE
+  hi Function         ctermbg=NONE ctermfg=33   guibg=NONE    guifg=#0087ff cterm=NONE           gui=NONE
   hi SpecialKey       ctermbg=NONE ctermfg=244  guibg=NONE    guifg=#808080 cterm=NONE           gui=NONE
   hi Title            ctermbg=NONE ctermfg=22   guibg=NONE    guifg=#005f00 cterm=NONE           gui=NONE
 
