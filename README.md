@@ -6,20 +6,11 @@ It has 16 and 256 colours support for both terminal and GUI.
 This is a work in progress.
 
 ## Screenshots
+All screenshots are taken in VIM cli on a 256-colour enabled terminal (rxvt-unicode-256color).
 **Vim diff**
 ![Vim diff](screenshots/vimdiff.png "Vim diff")
-**Shell**
-![Shell](screenshots/shell.png "Shell")
-**C**
-![C](screenshots/c.png "C")
-**HTML**
-![HTML](screenshots/html.png "HTML")
-**PHP**
-![PHP](screenshots/php.png "PHP")
-**Python**
-![Python](screenshots/python.png "Python")
-**Perl**
-![Perl](screenshots/perl.png "Perl")
+**zsh**
+![zsh](screenshots/zsh.png "zsh")
 
 ## Installation
 Copy colors/lightning.vim to $HOME/.vim/colors/
