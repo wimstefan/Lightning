@@ -16,24 +16,24 @@ let colors_name = 'lightning'
 if &t_Co >= 256 || has('gui_running')
   hi Normal           ctermbg=231  ctermfg=234  guibg=#ffffff guifg=#1c1c1c cterm=NONE           gui=NONE
 
-  hi Comment          ctermbg=NONE ctermfg=240  guibg=NONE    guifg=#585858 cterm=NONE           gui=NONE
+  hi Comment          ctermbg=NONE ctermfg=244  guibg=NONE    guifg=#808080 cterm=NONE           gui=NONE
   hi Constant         ctermbg=NONE ctermfg=208  guibg=NONE    guifg=#ff8700 cterm=NONE           gui=NONE
   hi Error            ctermbg=NONE ctermfg=160  guibg=NONE    guifg=#d70000 cterm=reverse        gui=reverse
   hi Identifier       ctermbg=NONE ctermfg=20   guibg=NONE    guifg=#0000d7 cterm=NONE           gui=NONE
   hi Ignore           ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=NONE           gui=NONE
   hi PreProc          ctermbg=NONE ctermfg=36   guibg=NONE    guifg=#00af87 cterm=NONE           gui=NONE
   hi Special          ctermbg=NONE ctermfg=35   guibg=NONE    guifg=#34b31b cterm=NONE           gui=NONE
-  hi Statement        ctermbg=NONE ctermfg=27   guibg=NONE    guifg=#005fff cterm=NONE           gui=NONE
+  hi Statement        ctermbg=NONE ctermfg=69   guibg=NONE    guifg=#5f87ff cterm=NONE           gui=NONE
   hi String           ctermbg=NONE ctermfg=124  guibg=NONE    guifg=#af0000 cterm=NONE           gui=NONE
   hi Todo             ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=reverse        gui=reverse
   hi Type             ctermbg=NONE ctermfg=90   guibg=NONE    guifg=#870087 cterm=NONE           gui=NONE
   hi Underlined       ctermbg=NONE ctermfg=36   guibg=NONE    guifg=#00af87 cterm=underline      gui=underline
 
   hi LineNr           ctermbg=251  ctermfg=234  guibg=#c6c6c6 guifg=#1c1c1c cterm=NONE           gui=NONE
-  hi NonText          ctermbg=NONE ctermfg=240  guibg=NONE    guifg=#585858 cterm=NONE           gui=NONE
+  hi NonText          ctermbg=NONE ctermfg=244  guibg=NONE    guifg=#808080 cterm=NONE           gui=NONE
 
   hi Pmenu            ctermbg=251  ctermfg=235  guibg=#c6c6c6 guifg=#262626 cterm=NONE           gui=NONE
-  hi PmenuSbar        ctermbg=240  ctermfg=NONE guibg=#585858 guifg=NONE    cterm=NONE           gui=NONE
+  hi PmenuSbar        ctermbg=244  ctermfg=NONE guibg=#808080 guifg=NONE    cterm=NONE           gui=NONE
   hi PmenuSel         ctermbg=195  ctermfg=235  guibg=#d7ffff guifg=#262626 cterm=NONE           gui=NONE
   hi PmenuThumb       ctermbg=66   ctermfg=87   guibg=#5f8787 guifg=#5fffff cterm=NONE           gui=NONE
 
@@ -68,13 +68,13 @@ if &t_Co >= 256 || has('gui_running')
   hi WildMenu         ctermbg=111  ctermfg=235  guibg=#87afff guifg=#262626 cterm=NONE           gui=NONE
 
   hi Function         ctermbg=NONE ctermfg=166  guibg=NONE    guifg=#d75f00 cterm=NONE           gui=NONE
-  hi SpecialKey       ctermbg=NONE ctermfg=240  guibg=NONE    guifg=#585858 cterm=NONE           gui=NONE
+  hi SpecialKey       ctermbg=NONE ctermfg=244  guibg=NONE    guifg=#808080 cterm=NONE           gui=NONE
   hi Title            ctermbg=NONE ctermfg=22   guibg=NONE    guifg=#005f00 cterm=NONE           gui=NONE
 
   hi DiffAdd          ctermbg=157  ctermfg=235  guibg=#afffaf guifg=#262626 cterm=NONE           gui=NONE
   hi DiffChange       ctermbg=189  ctermfg=235  guibg=#d7d7ff guifg=#262626 cterm=NONE           gui=NONE
   hi DiffDelete       ctermbg=217  ctermfg=235  guibg=#ffafaf guifg=#262626 cterm=NONE           gui=NONE
-  hi DiffText         ctermbg=103  ctermfg=235  guibg=#8787af guifg=#262626 cterm=NONE           gui=NONE
+  hi DiffText         ctermbg=147  ctermfg=235  guibg=#afafff guifg=#262626 cterm=NONE           gui=NONE
 
   hi IncSearch        ctermbg=217  ctermfg=235  guibg=#ffafaf guifg=#262626 cterm=NONE           gui=NONE
   hi Search           ctermbg=229  ctermfg=235  guibg=#ffffaf guifg=#262626 cterm=NONE           gui=NONE
@@ -201,10 +201,10 @@ hi link htmlTag            htmlTagName
 
 hi link diffBDiffer        WarningMsg
 hi link diffCommon         WarningMsg
-hi link diffDiffer         WarningMsg
+hi link diffDiffer         DiffText
 hi link diffIdentical      WarningMsg
 hi link diffIsA            WarningMsg
 hi link diffNoEOL          WarningMsg
 hi link diffOnly           WarningMsg
-hi link diffRemoved        WarningMsg
-hi link diffAdded          String
+hi link diffRemoved        DiffDelete
+hi link diffAdded          DiffAdd
