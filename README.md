@@ -9,10 +9,10 @@ This is a work in progress.
 All screenshots are taken in VIM cli on a 256-colour enabled terminal (rxvt-unicode-256color).
 
 **Vim diff**
-![Vim diff](screenshots/vimdiff.png "Vim diff")
+![Vim diff](http://wimstefan.github.io/screenshots/vimdiff.png "Vim diff")
 
 **zsh**
-![zsh](screenshots/zsh.png "zsh")
+![zsh](http://wimstefan.github.io/screenshots/zsh.png "zsh")
 
 ## Installation
 Copy colors/lightning.vim to $HOME/.vim/colors/
