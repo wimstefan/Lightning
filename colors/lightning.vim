@@ -43,9 +43,9 @@ if &t_Co >= 256 || has('gui_running')
   hi Question         ctermbg=NONE ctermfg=124  guibg=NONE    guifg=#af0000 cterm=NONE           gui=NONE
   hi WarningMsg       ctermbg=NONE ctermfg=160  guibg=NONE    guifg=#d70000 cterm=NONE           gui=NONE
 
-  hi TabLine          ctermbg=130  ctermfg=231  guibg=#af5f00 guifg=#ffffff cterm=NONE           gui=NONE
-  hi TabLineFill      ctermbg=238  ctermfg=238  guibg=#444444 guifg=#444444 cterm=NONE           gui=NONE
-  hi TabLineSel       ctermbg=231  ctermfg=130  guibg=#ffffff guifg=#af5f00 cterm=NONE           gui=NONE
+  hi TabLineSel       ctermbg=68   ctermfg=231  guibg=#5f87d7 guifg=#ffffff cterm=NONE           gui=NONE
+  hi TabLineFill      ctermbg=254  ctermfg=254  guibg=#e4e4e4 guifg=#e4e4e4 cterm=NONE           gui=NONE
+  hi TabLine          ctermbg=231  ctermfg=68   guibg=#ffffff guifg=#5f87d7 cterm=NONE           gui=NONE
 
   hi Cursor           ctermbg=250  ctermfg=NONE guibg=#bcbcbc guifg=NONE    cterm=NONE           gui=NONE
   hi CursorColumn     ctermbg=254  ctermfg=NONE guibg=#e4e4e4 guifg=NONE    cterm=NONE           gui=NONE
@@ -55,8 +55,8 @@ if &t_Co >= 256 || has('gui_running')
   hi helpLeadBlank    ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=NONE           gui=NONE
   hi helpNormal       ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=NONE           gui=NONE
 
-  hi StatusLine       ctermbg=251  ctermfg=238  guibg=#444444 guifg=#ffffff cterm=NONE           gui=bold
-  hi StatusLineNC     ctermbg=238  ctermfg=251  guibg=#ffffff guifg=#444444 cterm=NONE           gui=NONE
+  hi StatusLine       ctermbg=238  ctermfg=231  guibg=#ffffff guifg=#ffffff cterm=NONE           gui=bold
+  hi StatusLineNC     ctermbg=251  ctermfg=238  guibg=#444444 guifg=#ffffff cterm=NONE           gui=NONE
 
   hi Visual           ctermbg=111  ctermfg=235  guibg=#87afff guifg=#262626 cterm=NONE           gui=NONE
   hi VisualNOS        ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=underline      gui=underline
