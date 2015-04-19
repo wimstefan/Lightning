@@ -55,8 +55,8 @@ if &t_Co >= 256 || has('gui_running')
   hi helpLeadBlank    ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=NONE           gui=NONE
   hi helpNormal       ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=NONE           gui=NONE
 
-  hi StatusLine       ctermbg=251  ctermfg=231  guibg=#c6c6c6 guifg=#ffffff cterm=NONE           gui=bold
-  hi StatusLineNC     ctermbg=231  ctermfg=251  guibg=#ffffff guifg=#c6c6c6 cterm=NONE           gui=NONE
+  hi StatusLine       ctermbg=251  ctermfg=238  guibg=#444444 guifg=#ffffff cterm=NONE           gui=bold
+  hi StatusLineNC     ctermbg=238  ctermfg=251  guibg=#ffffff guifg=#444444 cterm=NONE           gui=NONE
 
   hi Visual           ctermbg=111  ctermfg=235  guibg=#87afff guifg=#262626 cterm=NONE           gui=NONE
   hi VisualNOS        ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=underline      gui=underline
