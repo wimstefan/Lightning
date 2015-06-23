@@ -57,7 +57,7 @@ if &t_Co >= 256 || has('gui_running')
   hi WinNumSel        ctermbg=153  ctermfg=160  guibg=#afd7ff guifg=#d70000 cterm=bold           gui=bold
   hi WinNum           ctermbg=231  ctermfg=153  guibg=#ffffff guifg=#afd7ff cterm=NONE           gui=NONE
 
-  hi StatusLine       ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=standout       gui=standout
+  hi StatusLine       ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=inverse        gui=inverse
   hi StatusLineNC     ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=NONE           gui=NONE
 
   hi helpLeadBlank    ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=NONE           gui=NONE
