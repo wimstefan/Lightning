@@ -13,10 +13,11 @@ set background=light
 
 let colors_name = 'lightning'
 
-if &t_Co >= 256 || has('gui_running')
+if ($TERM =~ '256' || &t_Co >= 256) || has('gui_running')
   hi Normal           ctermbg=231  ctermfg=234  guibg=#ffffff guifg=#1c1c1c cterm=NONE           gui=NONE
 
   hi Comment          ctermbg=NONE ctermfg=244  guibg=NONE    guifg=#808080 cterm=NONE           gui=NONE
+  hi Conceal          ctermbg=NONE ctermfg=250  guibg=NONE    guifg=#bcbcbc cterm=NONE           gui=NONE
   hi Constant         ctermbg=NONE ctermfg=208  guibg=NONE    guifg=#ff8700 cterm=NONE           gui=NONE
   hi Error            ctermbg=160  ctermfg=255  guibg=#d70000 guifg=#ffffff cterm=bold           gui=bold
   hi Identifier       ctermbg=NONE ctermfg=20   guibg=NONE    guifg=#0000d7 cterm=NONE           gui=NONE
@@ -219,3 +220,24 @@ hi link diffNoEOL          WarningMsg
 hi link diffOnly           WarningMsg
 hi link diffRemoved        DiffDelete
 hi link diffAdded          DiffAdd
+
+if $NVIM_TUI_ENABLE_TRUE_COLOR == 1
+  let g:terminal_foreground = "#303030"
+  let g:terminal_background = "#EEEEEE"
+  let g:terminal_color_0    = "#080808"
+  let g:terminal_color_8    = "#585858"
+  let g:terminal_color_1    = "#CC2929"
+  let g:terminal_color_9    = "#B30000"
+  let g:terminal_color_2    = "#34B31B"
+  let g:terminal_color_10   = "#338033"
+  let g:terminal_color_3    = "#E27E00"
+  let g:terminal_color_11   = "#F27F0C"
+  let g:terminal_color_4    = "#175CE6"
+  let g:terminal_color_12   = "#003BB3"
+  let g:terminal_color_5    = "#CC00CC"
+  let g:terminal_color_13   = "#80195E"
+  let g:terminal_color_6    = "#26BFBF"
+  let g:terminal_color_14   = "#0F9999"
+  let g:terminal_color_7    = "#FAFAFA"
+  let g:terminal_color_15   = "#E4E4E4"
+endif
