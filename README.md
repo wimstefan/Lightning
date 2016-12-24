@@ -13,14 +13,3 @@ All screenshots are taken in VIM cli on a 256-colour enabled terminal (rxvt-unic
 
 **zsh**
 ![zsh](http://wimstefan.github.io/screenshots/zsh.png "zsh")
-
-## Installation
-Copy colors/lightning.vim to $HOME/.vim/colors/
-
-Or use a vim plugin manager:
-
-| Plugin manager                                         | In vimrc                         | Installation command |
-|--------------------------------------------------------|----------------------------------|----------------------|
-| [NeoBundle](https://github.com/Shougo/neobundle.vim)   | `NeoBundle 'wimstefan/Lightning'` | `NeoBundleInstall`     |
-| [Vim-plug](https://github.com/junegunn/vim-plug)       | `Plug 'wimstefan/Lightning'`      | `PlugInstall`          |
-| [Vundle](https://github.com/gmarik/Vundle.vim)         | `Plugin 'wimstefan/Lightning'`    | `PluginInstall`        |
